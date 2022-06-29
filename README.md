@@ -7,8 +7,9 @@ Product management web app built using React + Redux + JsonServer.
 1.  First Clone the app into your local repository
 2.  Run `npm install -g json-server` in your terminal ,it may need administrator privileges
 3.  open new terminal with the same project path and run `json-server --watch db.json`,this will create a rest server at http://localhost:3000
-4.  Run `npm install` in the terminal with project path, you'll bes asked to type `Y` in order to listen for another port and by default it will be served at http://localhost:3001 if the port `3001` is not taken
-5.  Enjoy your app
+4.  Run `npm install` in the terminal with project path, 
+5.  Run `npm start` you'll bes asked to type `Y` in order to listen for another port and by default it will be served at http://localhost:3001 if the port `3001` is not taken
+6.  Enjoy your app
 
 ## How to use the app as an Administrator
 
