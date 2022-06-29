@@ -1,0 +1,12 @@
+.custom_navbar_nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.custom_navbar_collapse,
+.custom_navbar_nav {
+  z-index: 1000;
+  background-color: white;
+}
