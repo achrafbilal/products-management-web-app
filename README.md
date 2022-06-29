@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# products-management-web-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Product management web app built using React + Redux + JsonServer.
 
-## Available Scripts
+## How to run the app
 
-In the project directory, you can run:
+1.  First Clone the app into your local repository
+2.  Run `npm install -g json-server` in your terminal ,it may need administrator privileges
+3.  open new terminal with the same project path and run `json-server --watch db.json`,this will create a rest server at http://localhost:3000
+4.  Run `npm install` in the terminal with project path, you'll bes asked to type `Y` in order to listen for another port and by default it will be served at http://localhost:3001 if the port `3001` is not taken
+5.  Enjoy your app
 
-### `npm start`
+## How to use the app as an Administrator
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.  Login using `admin@mail.com` and 'password' as credentials to login as an Administrator
+2.  Add products by clicking on the 'Add product' link in the navbar
+3.  After Saving the product you can check the products in the `Products` link in the navbar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to use the app as a Client
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  Login using `client@mail.com` and 'password' as credentials to login as a Client
+2.  You can see all the products and add some products to your cart bt clicking the `Add to cart` button
+3.  You can view your cart by clicking on the `Cart` link in the navbar
+4.  You can delete products from your cart by clicking the `Delete from cart` button
+5.  And finally you can go to chekout by clicking the `Checkout` button in top right corner
